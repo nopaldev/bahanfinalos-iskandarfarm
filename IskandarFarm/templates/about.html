@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - ISKANDAR FARM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="{{ url_for('home') }}" class="navbar-logo">ISKANDAR<span>FARM</span>.</a>
+        <div class="navbar-nav">
+           <a href="{{ url_for('home') }}">HOME</a>
+           <a href="{{ url_for('about') }}">ABOUT</a>
+           <a href="{{ url_for('daftar_benih') }}">DAFTAR BENIH</a>
+           <a href="{{ url_for('kontak') }}">KONTAK</a> 
+        </div>
+    </nav>
+    <section class="hero">
+        <main class="content">
+            <h1>Tentang Kami</h1>
+            <p>ISKANDAR FARM berdiri sejak 2017, menyediakan jasa tanam padi terbaik dengan beragam varietas unggulan untuk mendukung pertanian Anda.</p>
+        </main>
+    </section>
+</body>
+</html>
